@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+
+  <div class="container-fluid fill" id="one" style="background-image: url('{% static "pics/1.jpg" %}')";>
+    <h1 id="toptext">OUR ATTACK SURFACES ARE GROWING BY THE SECOND</h1>
+  </div>
+  <div class="container-fluid fill" id="two" style="background-image: url('{% static "pics/2.jpg" %}')";>
+    <h1 class="story">WE LIVE IN A DIFFERENT ERA</h1>
+    <hr>
+    <div class="container-fluid fill">
+      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 visualz">
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 visualz">
+        <h1 class="visualz">Internet + PCs</h1>
+      </div>
+      <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 visualz arrow">
+        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 visualz">
+        <h1 class="visualz">Gone Mobile</h1>
+      </div>
+      <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 visualz arrow">
+        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 visualz">
+        <h1 class="visualz">IoT + Cloud</h1>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 visualz">
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid fill" id="eight" style="background-image: url('{% static "pics/5.jpg" %}')";>
+    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 soc2">
+    </div>
+    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 story soc3">
+      <h1 class="soc2">Traditional SOC</h1>
+      <hr>
+      <p class="soc">Clunky hardware</p>
+      <p class="soc">Gaps in visibility</p>
+      <p class="soc">Manual analysis</p>
+    </div>
+    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 story soc3">
+      <h1 class="soc2">Refreshed SOC</h1>
+      <hr>
+      <p class="soc">Cloud based</p>
+      <p class="soc">Network transparency</p>
+      <p class="soc">Machine Learning</p>
+    </div>
+    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 soc2">
+    </div>
+  </div>
+  <div class="container-fluid fill" id="seven" style="background-image: url('{% static "pics/6.jpg" %}')";>
+    <h1 class="visualz" id="soc">THE MODERN SOC IS BUILT ON SPEED, EFFICIENCY, AND AGILITY.</h1>
+    <hr>
+    <div class="container-fluid fill">
+      <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 story soc2">
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 story soc2">
+        <i class="fa fa-cloud story" aria-hidden="true"></i>
+        <h1 class="soc">Cloud</h1>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 story soc2">
+        <i class="fa fa-balance-scale story" aria-hidden="true"></i>
+        <h1 class="soc">Scalability</h1>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 story soc2">
+        <i class="fa fa-eye story" aria-hidden="true"></i>
+        <h1 class="soc">Visibility</h1>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 story soc2">
+        <i class="fa fa-magic story" aria-hidden="true"></i>
+        <h1 class="soc">Detection</h1>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 story soc2">
+        <i class="fa fa-users story" aria-hidden="true"></i>
+        <h1 class="soc">Collaboration</h1>
+      </div>
+      <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 soc2">
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+{% endblock %}
